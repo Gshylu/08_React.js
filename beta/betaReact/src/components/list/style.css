@@ -1,0 +1,20 @@
+
+@counter-style myMarkers {
+     system:cyclic;
+       symbols:  "🤓" "🤪" "😆";
+     suffix: "  ";
+}
+ 
+   ul  {
+     list-style: myMarkers;
+    
+   }
+   
+   li:hover{
+     color:"red";
+     background-color: aqua;
+    
+
+   }
+   
+   
